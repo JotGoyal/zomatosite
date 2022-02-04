@@ -1,0 +1,123 @@
+body{
+    margin: auto;
+}
+
+#header{
+    height:60px;
+    background-color: #E18775;
+}
+
+#icon{
+    float:left;
+}
+
+#social{
+    float:right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+.search{
+    height: 400px;
+    background-image: url('images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    margin-left:27%;
+    margin-top:12%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:35%;
+    font-size:13px;
+    text-align:center;
+}
+
+.restolist{
+    width:50%  
+}
+a{
+    text-decoration:none
+}
+
+.quicksearch{
+    height: 600px;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 4%;
+}
+
+.QuickHeading{
+    display: block;
+    color: yellow;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.QuickText{
+    color: #808080;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+
+.tilecontainer{
+    height:200px;
+    width:25%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    box-shadow: 10px 20px 10px gray;
+}
+
+.tilecontainer img{
+    height: 150px;
+    width: 100%;
+}
+
+.tilecomponent2{
+    text-align: center;
+}
+
+.componentheading{
+    font-size: 23px;
+    color:orange;
+}
+
+.componentheading > a{
+    color:orange;
+}
+.componentsubheading{
+    color:gray;
+}
+
+#footer{
+    height:200px;
+    background-color:#e09c83
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+}
+
+#footer ul{
+    list-style-type: none;
+}

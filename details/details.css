@@ -1,0 +1,151 @@
+body{
+    margin: auto;
+}
+
+    /* HEADER */
+#header{
+    height:60px;
+    background-color: #E18775;
+}
+
+#icon{
+    float:left;
+}
+
+#social{
+    float:right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+    /* MAIN CONTAINER */
+.Main{
+    background-color: #e0e0e0;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.MainContainer{
+    height: 500px;
+    width: 75%;
+    border: red 5px solid;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.image{
+    height: 330px;
+    width: 35%;
+    border: green 2px solid;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    float: left;
+}
+
+.image img{
+    height: 330px;
+    width: 100%;
+}
+
+.buttons button{
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    width:193px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    margin-top: 4%;
+}
+
+.Details{
+    height: 450px;
+    width: 40%;
+    border: blue 2px solid;
+    margin-left: 4%;
+    margin-top: 1.5%;
+    float: left;
+}
+
+.Details span{
+    font-size: 30px;
+    display: block;
+    margin-bottom:4%;
+}
+.buttondiv{
+    display: inline-block;
+    color: #212121;
+    align-items: center;
+}
+
+.b1:disabled{
+    color: #c2c2c2;
+    border-color: #e0e0e0;
+    cursor: auto;
+}
+
+.input{
+    display: inline-block;
+    padding: 2px 4px;
+    width: calc(100% - 60px);
+    height: 100%;
+    width: 48px;
+    height: 22px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    margin: 0 5px;
+}
+
+.abc{
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.b2{
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 1px;
+    line-height: 1;
+} 
+
+.MainContainer h2{
+    color: green;
+}
+
+   /* Footer */
+#footer{
+    height:200px;
+    background-color:#e09c83;
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white;
+}
+
+#footer ul{
+    list-style-type: none;
+}

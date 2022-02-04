@@ -1,0 +1,134 @@
+body{
+    margin: auto;
+}
+
+    /* HEADER */
+#header{
+    height:60px;
+    background-color: #E18775;
+}
+
+#icon{
+    float:left;
+}
+
+#social{
+    float:right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+    /* MAIN CONTAINER FOR LIST OPTIONS AND LIST ITEMS */
+
+.MainContainer{
+    height: 700px;
+    width: 75%;
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+/* LIST OPTIONS */
+.ListOptions{
+    width: 20%;
+    height: 450px;
+    border: 3px solid gray;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+    padding: 4%;
+}
+
+.ListOptions hr{
+    color: gray;
+    width: 80%;
+    text-align: center;
+}
+
+.ListOptionText{
+    font-size: 23px;
+    color: orange;
+}
+
+    /*LIST ITEMS*/
+.listing{
+    width: 58%;
+    height: 650px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    overflow: scroll;
+}
+
+.tilecontainer{
+    height:230px;
+    width:90%;
+    margin-left: 3%;
+    float: left;
+    box-shadow: 4px 5px 3px grey;
+    margin-bottom: 2%;
+    
+}
+
+.tilecontainer img{
+    height: 230px;
+    width: 45%;
+    float: left;
+    
+}
+
+.tilecomponent2{
+    height: 230px;
+    float: left;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.componentheading{
+    font-size: 21px;
+    line-height: 2;
+    color:orange;
+}
+
+.componentheading > a{
+    color:orange;
+}
+.componentsubheading{
+    color:gray;
+    
+    line-height: 2;
+}
+
+.tilecontainer button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+    /* Footer */
+#footer{
+    height:200px;
+    background-color:#e09c83
+}
+
+.foot1{
+    width:35%;
+    height:120px;
+    float: left;
+    border-right:2px solid white
+}
+
+#footer ul{
+    list-style-type: none;
+}
