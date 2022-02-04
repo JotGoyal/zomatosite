@@ -2,10 +2,10 @@ body{
     margin: auto;
 }
 
-#header{
+/* #header{
     height:60px;
     background-color: #E18775;
-}
+} */
 
 #icon{
     float:left;
@@ -19,33 +19,44 @@ body{
     float: left;
 }
 
-#social{
-    float:right;
-}
+
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
-.slogo{
-    height: 50px;
-    width: 50px;
-}
 
 .search{
-    height: 400px;
-    background-image: url('images/food-wallpaper.png');
+    height: 500px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('images/food-wallpaper.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-size: 100% 400px;
+    background-size: 100% 500px; 
+}
+
+.search img{
+    height:70px;
+    width: 70px;
+    margin-left: 46%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin-left: 34%;
+    margin-top: 0.5%;
 }
 
 .dropdown{
     height:60px;
     width:50%;
-    margin-left:27%;
-    margin-top:12%;
-    position: absolute;
+    margin-left:29%;
+    margin-top: 1.5%;
+    
 }
 
 select{
@@ -58,15 +69,13 @@ select{
 .restolist{
     width:50%  
 }
-a{
-    text-decoration:none
-}
 
+    /* QUICK SEARCH --- ITEMS DISPLAY */
 .quicksearch{
     height: 600px;
-    margin-left: 10%;
+    margin-left: 11%;
     width: 80%;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .QuickHeading{
@@ -115,8 +124,11 @@ a{
 }
 
 #footer{
-    height:200px;
-    background-color:#e09c83
+    height: 300px;
+    background-color: #e09c83;
+    margin-left: 15%;
+    width: 68%;
+    border: red 2px solid;
 }
 
 .foot1{
@@ -124,6 +136,31 @@ a{
     height:120px;
     float: left;
     border-right:2px solid white
+}
+
+#social{
+    margin-left:10px;
+    float: left;
+}
+
+.SocialText{
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+}
+
+.buttons{
+    margin-top:2%;
+}
+
+.button{
+    background-color: white; 
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+
 }
 
 #footer ul{
