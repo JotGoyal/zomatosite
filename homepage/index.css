@@ -48,7 +48,7 @@ a{
     color: white;
     font-style: italic;
     margin-left: 34%;
-    margin-top: 0.5%;
+    margin-top: 0.5%;  
 }
 
 .dropdown{
@@ -72,7 +72,6 @@ select{
 
     /* QUICK SEARCH --- ITEMS DISPLAY */
 .quicksearch{
-    height: 600px;
     margin-left: 11%;
     width: 80%;
     margin-top: 3%;
@@ -102,6 +101,13 @@ select{
     box-shadow: 10px 20px 10px gray;
 }
 
+.tilecontainer:hover{
+    /*transform: scale(1.1);
+    transform: skewX(-20deg);
+    transform: rotate(20deg);*/
+    transform: scale(1.1)
+}
+
 .tilecontainer img{
     height: 150px;
     width: 100%;
@@ -124,10 +130,12 @@ select{
 }
 
 #footer{
-    height: 300px;
+    height: 200px;
     background-color: #e09c83;
     margin-left: 15%;
+    display: inline-block;
     width: 68%;
+    margin-top: 2%;
     border: red 2px solid;
 }
 
@@ -152,12 +160,14 @@ select{
 
 .buttons{
     margin-top:2%;
+    float: inline-block;
 }
 
 .button{
     background-color: white; 
     border: none;
     color: black;
+    float: left;
     text-decoration: none;
     font-size: 10px;
 
@@ -165,4 +175,83 @@ select{
 
 #footer ul{
     list-style-type: none;
+}
+
+
+/* window.innerWidth
+501
+window.innerWidth
+914
+window.innerWidth
+1492 */
+
+@media screen and (max-width: 1600px) {
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    body{
+        background-color: rgb(233, 127, 210);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: rgb(221, 221, 114) ;
+        
+    }
+    .search text{
+        margin-left: 29%;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: rgb(115, 185, 115);
+        
+    }
+
+    .search text{
+        margin-left: 25%;
+    }
+
+    .search .dropdown select{
+        font-size: 11px;
+    }
+
+    .search img{
+        margin-left: 44%;
+    }
+    
+
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: rgb(66, 187, 218);
+    }
+    .search text{
+        margin-left: 2%;
+        
+    }
+
+    .search img{
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgba(190, 147, 99, 0.842);
+    }
+
+    .search{
+        height: 351px;
+    }
+    .search text{
+        font-size: 19px;
+    }
 }
