@@ -28,7 +28,7 @@ a{
 
 
 .search{
-    height:450px;
+    height:500px;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('images/food-wallpaper.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -38,7 +38,7 @@ a{
 .search img{
     height:70px;
     width: 70px;
-    margin-left: 46%;
+    margin-left: 47%;
     margin-top: 7%;
     text-align: center;
 }
@@ -47,7 +47,8 @@ a{
     font-size: 30px;
     color: white;
     font-style: italic;
-    margin-left: 34%;
+    font-family: cursive;
+    margin-left: 32%;
     margin-top: 0.5%;  
 }
 
