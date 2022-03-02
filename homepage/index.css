@@ -2,10 +2,27 @@ body{
     margin: auto;
 }
 
+body{
+    background-color:white;
+    color:black 
+ }
+ .mydark{
+    background-color:black;
+    color:white  
+ }
+
 /* #header{
     height:60px;
     background-color: #E18775;
 } */
+
+.modechangebutton{
+    float: right;
+    position: fixed;
+
+}
+
+
 
 #icon{
     float:left;
@@ -142,11 +159,14 @@ select{
 }
     /* developed by text */
 .devby{
-    background-color: white;
     margin-top: 3%;
     text-align: center;
 }
 
+.devby span{
+    font-size: 25px;
+    text-align: center;
+}
 
 .foot{
     margin-top:5%;

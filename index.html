@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="javascript.js"></script>
     </head>
     <body>
         <header id="header">
@@ -22,11 +23,15 @@
             <div class="image">
                 <img src="zomato.png" alt="zomato"/>
             </div>
+            <div class="modechangebutton">
+                <button type="button" class="btn btn-dark" onClick="changeMode()">Change Mode</button>
+            </div>
+            
             <div class="text">
                 Enjoy the delicious meal cooked with &hearts;
             </div>
             <div class="dropdown">
-                <select class="">
+                <select>
                     <option>----- PLEASE SELECT CITY -----</option>
                     <option>Delhi</option>
                     <option>Mumbai</option>
@@ -131,7 +136,7 @@
             </div>
             
             <div class="devby">
-                <h3>&copy;Developed By Priya Jot Goyal</h3>
+                <span>&copy;Developed By Priya Jot Goyal</span>
             </div>
 
             <footer id="footer">
