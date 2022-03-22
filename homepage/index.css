@@ -22,6 +22,18 @@ body{
 
 }
 
+#coupon{
+    height:250px;
+    width:460px;
+    background-image:url(./images/coupon1.jpg);
+    z-index:100;
+    margin:auto;
+    visibility: hidden;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 14%;
+    text-align: right;
+}
 
 
 #icon{
@@ -49,31 +61,33 @@ a{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('images/food-wallpaper.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-size: 100% 500px; 
+    background-size: 100% 500px;
+    
 }
 
 .search img{
     height:70px;
     width: 70px;
-    margin-left: 47%;
+    margin-left: 46%;
     margin-top: 7%;
     text-align: center;
 }
 
 .text {
     font-size: 30px;
-    color: white;
     font-style: italic;
     font-family: cursive;
-    margin-left: 32%;
+    margin-left: 31%;
     margin-top: 0.5%;  
+    color: white;
 }
 
 .dropdown{
     height:60px;
     width:50%;
-    margin-left:29%;
+    margin-left:27%;
     margin-top: 1.5%;
+    color: white;
 }
 
 select{
@@ -82,6 +96,8 @@ select{
     font-size:13px;
     text-align:center;
     border-radius: 5px;
+    background-color: black;
+    color: white;
 }
 
 .restolist{
